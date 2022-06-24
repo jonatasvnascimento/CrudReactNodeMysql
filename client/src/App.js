@@ -20,57 +20,57 @@ function App() {
       <h1>CRUD teste</h1>
       <div className="container">
         {/* nome */}
-        <div class="row g-3 align-items-center mt-2">
-          <div class="col-1">
-            <label for="inputPassword6" class="col-form-label">
+        <div className="row g-3 align-items-center mt-2">
+          <div className="col-1">
+            <label className="col-form-label">
               Nome
             </label>
           </div>
-          <div class="col-auto">
+          <div className="col-auto">
             <input
               type="text"
               name="name"
-              class="form-control"
+              className="form-control"
               onChange={handleChangeValues}
             />
           </div>
         </div>
 
         {/* Preço */}
-        <div class="row g-3 align-items-center mt-0">
-          <div class="col-1">
-            <label for="inputPassword6" class="col-form-label">
+        <div className="row g-3 align-items-center mt-0">
+          <div className="col-1">
+            <label className="col-form-label">
               Preço
             </label>
           </div>
-          <div class="col-auto">
+          <div className="col-auto">
             <input
               type="text"
               name="cost"
-              class="form-control"
+              className="form-control"
               onChange={handleChangeValues}
             />
           </div>
         </div>
 
         {/* Categoria */}
-        <div class="row g-3 align-items-center mt-0">
-          <div class="col-1">
-            <label for="inputPassword6" class="col-form-label">
+        <div className="row g-3 align-items-center mt-0">
+          <div className="col-1">
+            <label className="col-form-label">
               Categoria
             </label>
           </div>
-          <div class="col-auto">
+          <div className="col-auto">
             <input
               type="text"
               name="category"
-              class="form-control"
+              className="form-control"
               onChange={handleChangeValues}
             />
           </div>
         </div>
 
-        <button class="btn btn-primary mt-3" onClick={ () => handleClickButton()}>
+        <button className="btn btn-primary mt-3" onClick={ () => handleClickButton()}>
           Submit
         </button>
       </div>
